@@ -1,4 +1,5 @@
-<h2>스터디</h2>
+스터디
+------------
 <p>스터디한걸 정리하기위한 공간</p>
 
 ```bash
@@ -13,7 +14,8 @@ $ git push -u origin master
 -----------------------------------------------------
 ```
 
-<h3>git오류 해결</h3>
+git오류 해결
+---------
 >1. ! [rejected] master -> master (fetch first) <br>
 error: failed to push some refs to 'https://github.com/JNoony/study.git'
 ```bash
