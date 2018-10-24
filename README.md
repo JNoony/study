@@ -17,7 +17,7 @@ $ git push -u origin master
 git오류 해결
 ---------
 >1. ! [rejected] master -> master (fetch first) <br>
-error: failed to push some refs to 'https://-------
+error: failed to push some refs to 'https://------- <br>
 >git add . 으로 전체 업로드를 진행해서 기존에 있던 파일과 충돌 나는 바람에 손실생길까봐 깃에서 에러난 것인듯. <br>
 강제진행하거나, 업데이트 확인하면 해결.
 
