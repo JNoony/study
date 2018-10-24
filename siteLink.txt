@@ -1,0 +1,191 @@
+----구글크롬-------------------------------------------------------------
+
+image downloader 검색->이미지전부다운
+html5 shiv 검색->https://github.com/aFarkas/html5shiv  다운->js파일다운
+
+-----------------------------------------------------------------------
+=================================================================================================================================================
+
+※※상업적이용 가능한 무료 이미지 사이트※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+
+https://unsplash.com/
+http://getrefe.tumblr.com/
+http://www.gratisography.com/
+http://littlevisuals.co/
+
+http://www.vectors4all.net/  -->상업적무료 벡터이미지
+
+http://www.freeqration.com/  -->개인/기업 상업적무료 이미지고퀄
+
+http://www.fbml.co.kr/2014/07/24/backgrounds-apps-websites/  -->사이트모아논 블로그
+
+http://photopin.com/ -->검색할때 Commercial체크하고 검색해얃횜
+http://letscc.net/ -->상업적으로 이용 체크후 검색
+
+http://publicdomainvectors.org/ko/ -->벡터이미지
+
+http://www.morguefile.com/ -->free photo클릭>'Read the license summary'클릭>상업적으로 사용가능하다는 저작권 표시
+
+http://icooon-mono.com/  -->아이콘,이모티콘 무료 상업적으로 사용가능하나 로고 같은 귀속성있는곳에는 제한(모두가 공유 할수 없어서),
+http://sourcetree.kr/?cat=ALL  --->디자이너를 위한 무료
+
+http://farfarhill.blogspot.kr/  -->무료텍스쳐
+
+
+
+----타이포그래피-참고--------------------------------------------------
+
+http://fontsinuse.com/
+
+--------------------------------------------------------------------------
+
+----파비콘 만들기--------------------------------------------------------
+http://convertico.com/
+
+--------------------------------------------------------------------------
+=================================================================================================================================================
+------------------------------------------
+    디자인
+------------------------------------------
+https://www.dbcut.com/bbs/index.php  --->국내 에이전시 포폴
+http://www.gdweb.co.kr/
+http://www.ideanote.co.kr/
+https://www.awwwards.com/   --->해외 포폴
+
+https://www.behance.net/  --->해외디자이너 포폴
+https://www.inspirationalshops.com  --->쇼핑몰 모아논곳
+https://www.designspiration.net/   --->또다른 핀터레스트 같은곳
+bm.straightline.jp   --->일본사이트
+http://hornil.com/kr/design/   -->디자인영감받는곳
+
+
+※UI/UX※
+http://uxmag.com/  -->사용자 경험과 관련된 최신 뉴스와 기사를 받아볼 수 있는 사이트
+http://troy.labs.daum.net/  -->다음트로이
+http://capptivate.co/  -->UI애니메이션 패턴 라이브러리 사이트
+https://uimovement.com/  --->UI디자인
+
+
+※ 디자인 템플릿※
+http://dbfreebies.co/  -->디자인 포트폴리오 자료 모음집
+http://kr.365psd.com/ -->무료 디자인 템플릿 다운로드 사이트
+https://onepagelove.com/  -->원 페이지 웹디자인 템플릿 사이트
+http://osxtip.tistory.com/59  ---->프리젠테이션용
+
+
+※ 디자인 관련 ※
+http://www.kubicki.info/  -->폴란드 아티스트 jarek kubicki
+http://ffffound.com/  -->이미지 아카이브 사이트
+http://file.org.br/  -->뉴미디어 아트 페스티벌 국제전자언어페스티벌 홈페이지
+http://monocle.com/  -->영국의 글로벌 라이프스타일 매거진
+http://www.itsnicethat.com/  -->예술 및 디자인 창작물들을 올리는 사이트
+http://www.creativeapplications.net/  -->다양한 미디어워크 모임
+http://www.butdoesitfloat.com/  -->독특한 이미지
+http://www.thisisacult.org/  -->사진과 영화 결과물,제작과정
+http://cr.jensgehlhaar.com/  -->옌스 겔하르 홈피(크리에이티브 디렉터)
+https://dribbble.com/  -->아티스트들의 모임
+https://www.behance.net/  -->어도비에서 인수한 사이트/개인디자이너 및 학생들의 작품 모음
+http://designspiration.net/  -->색상으로 검색이 가능한 사이트
+http://www.notefolio.net/  -->국내 아티스트들과 디자이너들의 작업동향을 파악할수 있음
+http://www.manystuff.org/  -->건축,그래픽디자인,일러스트,포토그래피
+http://www.designboom.com/design/  -->유럽의 트렌디한 건축,패션,사진 및 그래픽디자인
+http://cargocollective.com/   -->현직예술가,디자이너,사진가 등의 포폴
+http://inspirationbrowser.com/  -->최신디자인 확인
+http://designiskinky.net/
+http://theinspirationgrid.com/  -->웹디자인에 영감을 주는.. ㅋㅋ 쇼케이스웹사이트
+
+http://farfarhill.blogspot.kr/   -->텍스쳐 소스
+
+
+=================================================================================================================================================
+------------------------------------------
+    코딩
+------------------------------------------
+recoveryman.tistory.com -->블랙캣 강좌
+
+http://iconmonstr.com/ -->아이콘다운받는곳
+http://www.flaticon.com/ -->무료아이콘
+
+https://validator.w3.org/ -->오류검사
+
+http://www.cssmatic.com/box-shadow -->css3 box-shadow 값설정하면 자동소스 생성기
+
+http://html5ref.clearboth.org/  -->마크업 설명 
+
+http://winless.org/online-less-compiler  ->style시티 변환
+
+http://www.workwithcolor.com/ -->color picker
+
+https://www.w3schools.com   -->기본적인 코딩설명
+
+https://opentutorials.org/course/1  -->생활코딩 강좌사이트
+
+
+※ CSS/jQuery※
+http://tympanus.net/codrops/  -->다양한 웹디자인 튜토리얼, 레이아웃 모음, jQuery 플러그인을 제공하는 웹사이트
+http://www.awwwards.com/  -->우수 웹사이트 소개 및 수상작 모음 웹사이트
+http://mediaqueri.es/  -->미디어 쿼리를 이용한 사이트 갤러리
+http://tobiasahlin.com/spinkit/  -->스플래시 모음 사이트
+https://www.cssdesignawards.com/  --->CSS의 최신기술
+https://www.awwwards.com
+https://capptivate.co  --->모바일 애니메이션
+
+https://www.berriart.com/sidr/ ---->opencanvas 플러그인 다운로드
+http://tympanus.net/codrops/  --->css,java등 소스다운
+http://www.jquery.com/ ---> 제이쿼리 기본 설명 및 다운
+http://www.jqueryscript.net/ --->jQuery 플러그인 데모확인 및 다운
+
+fullpage.js   --->풀페이지 js예제랑 소스다운로드
+http://blog.kurien.co.kr/518 --->PHP 게시판만들기
+
+
+https://github.com/sarojaba/awesome-devblog
+https://naver.github.io/egjs/         -->프레임워크/네이버제작
+https://christinecha.github.io/choreographer-js/      -->애니메이션
+http://meandmax.github.io/lory/     -->슬라이드이미지
+
+https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths     -->SVG 설명
+
+
+=================================================================================================================================================
+
+※※동영상무료※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+https://videos.pexels.com/
+http://www.coverr.co/  
+https://www.videvo.net/
+https://pixabay.com/
+
+=================================================================================================================================================
+------------------------------------------
+    그외 유용한 사이트
+------------------------------------------
+http://www.degraeve.com/color-palette/  -->이미지에서 즉시 컬러를 추출해 팔레트를 생성
+
+http://www.jpegmini.com/  -->화질변화 없이 jpg파일의 용량을 줄여 주는 사이트입니다.[웹용은 무료이지만, 설치용은 구입 후 사용이 가능하니 참고]
+
+https://design.google.com  -->구글디자인
+
+http://gsnedders.html5.org/outliner/  -->마크업구조 아웃라인 확인하는 사이트
+
+http://uhbeefont.com/  -->상업적 무료 폰트, 유료판매용만 아님됨.
+https://www.granneman.com/webdev/coding/css/fonts-and-formatting/default-fonts/  -->OS별 기본 서체 리스트업 사이트
+http://fontawesome.io/ -->웹아이콘연결
+
+http://gs.statcounter.com/#browser_version_partially_combined-KR-monthly-201506-201606  -->인터넷브라우저 사용률
+
+http://bootstrapk.com/  --->그리드시스템
+https://960.gs  --->그리드시스템 설명포함
+
+http://www.snook.ca/technical/colour_contrast/colour.html#fg=767676,bg=222222  -->명도대비 확인
+
+http://cafe.naver.com/webappstudycafe -->bxslider 스터디 자료있는 카페
+
+https://pages.github.com/  -->깃허브 페이지 만들기
+
+https://programmers.co.kr/learn/challenges   -->프로그래머스/알고리즘을 이해하고 문제풀이를 타인이 한것도 볼수 있음
+
+※ 세미나 ※ 
+https://deview.kr/  
+https://festa.io/events/90
+
+
