@@ -27,7 +27,7 @@ $ git fetch origin master:tmp
 $ git rebase tmp
 $ git push origin HEAD:master
 $ git branch -D tmp
-거나,
+------------
 $ git push origin master --force  또는, $ git push origin master -f
 ```
 ```bash
