@@ -1,0 +1,90 @@
+※sass - Ruby 일때
+
+- sass 윈도우 기반에서 사용시 ruby설치 https://rubyinstaller.org/downloads/
+
+- 한개 컴파일
+  sass 싸스파일명.scss 변경할파일명.css
+
+-자동 컴파일
+ sass --watch 싸스파일명.scss:변경할파일명.css
+
+ [style옵션]
+ sass --watch --style 옵션명령어 싸스파일명.scss:변경할파일명.css
+ - nested : 뎁스별로 구분해서 컴파일
+ - compact : 요소에 스타일이 속성을 한줄씩 정렬해서 컴파일
+ - expanded : 요소에 모든 스타일을 한줄에 컴파일
+ - compressed : 모든 요소를 공백없이 컴파일
+
+- sourceMappingURL 지우기
+  /*# sourceMappingURL=style.css.map */ 을 처음부터 안생기게 하기
+
+--sourcemap=none
+ex) node-sass -w 파일명.scss 파일명.css --output-style style옵션 --sourcemap=none
+
+==============================================================================
+
+※sass - Node
+npm install node-sass -save
+
+-한번 컴파일
+node-sass 파일명.scss 파일명.css
+# node-sass [Sass 파일 이름] [컴파일 될 CSS 파일 이름] 
+$ node-sass sass/style.scss css/style.css
+
+-자동 컴파일
+node-sass -w 파일명.sass/ -o 파일명.css/ 
+# node-sass -watch sass/ --output css/ 
+$ node-sass -w sass/ -o css/
+
+[style옵션]컴파일
+ - nested : 뎁스별로 구분해서 컴파일
+ - expanded : 요소에 모든 스타일을 한줄에 컴파일
+
+ - compact : 요소에 스타일이 속성을 한줄씩 정렬해서 컴파일
+ - compressed : 모든 요소를 공백없이 컴파일
+
+node-sass -w 파일명.scss 파일명.css --output-style style옵션
+ex)node-sass -w public/css/scss/style.scss public/css/style.css --output-style compressed
+
+
+# NPM 을 통하여 node-sass 글로벌 설치
+$ sudo npm install -g node-sass
+
+# 컴파일하여 현재 디렉토리에 저장
+$ node-sass style.scss -o .
+
+# style.scss 파일에 변화가 있을 떄 마다 자동으로 리컴파일
+$ node-sass style.scss -w -o .
+
+    -w, --watch                    Watch a directory or file
+    -r, --recursive                 Recursively watch directories or files
+    -o, --output                   Output directory
+    -x, --omit-source-map-url  Omit source map URL comment from output
+    -i, --indented-syntax         Treat data from stdin as sass code (versus scss)
+    -q, --quiet                     Suppress log output except on error
+    -v, --version                   Prints version info
+    --output-style                 CSS output style (nested | expanded | compact | compressed)
+    --indent-type                 Indent type for output CSS (space | tab)
+    --indent-width                Indent width; number of spaces or tabs (maximum value: 10)
+    --linefeed                      Linefeed style (cr | crlf | lf | lfcr)
+    --source-comments          Include debug info in output
+    --source-map                 Emit source map
+    --source-map-contents     Embed include contents in map
+    --source-map-embed       Embed sourceMappingUrl as data URI
+    --source-map-root           Base path, will be emitted in source-map as is
+    --include-path                Path to look for imported files
+    --follow                        Follow symlinked directories
+    --precision                    The amount of precision allowed in decimal numbers
+    --error-bell                   Output a bell character on errors
+    --importer                     Path to .js file containing custom importer
+    --functions                     Path to .js file containing custom functions
+    --help                          Print usage info
+
+
+※※※ SASS 문법 ※※※※※※※
+
+
+
+
+
+
