@@ -23,4 +23,8 @@ $ git fetch origin master:tmp
 $ git rebase tmp
 $ git push origin HEAD:master
 $ git branch -D tmp
+
+$ git push origin master --force
+
+$ git push origin master -f
 ```
