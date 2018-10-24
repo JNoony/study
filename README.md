@@ -7,7 +7,7 @@ $ git init
 $ git add .
 $ git remote add orign http://
 $ git config user.name jnoony
-$ git config user.name jnoonyEmail@email.com
+$ git config user.email tarot0312@nate.com
 $ git commit -m "내용"
 $ git push -u origin master
 ------------------------------------------------
