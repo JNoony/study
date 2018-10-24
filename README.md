@@ -17,7 +17,7 @@ $ git push -u origin master
 git오류 해결
 ---------
 >1. ! [rejected] master -> master (fetch first) <br>
-error: failed to push some refs to 'https://github.com/JNoony/study.git'
+error: failed to push some refs to 'https://-------
 ```bash
 $ git fetch origin master:tmp
 $ git rebase tmp
