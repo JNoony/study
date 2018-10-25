@@ -184,6 +184,8 @@ https://pages.github.com/  -->깃허브 페이지 만들기
 
 https://programmers.co.kr/learn/challenges   -->프로그래머스/알고리즘을 이해하고 문제풀이를 타인이 한것도 볼수 있음
 
+https://trends.google.com/trends/explore?cat=13&geo=KR&q=angular,react,vuejs,polymer,jQuery     ->사용 프로그램 검색 및 분포도 확인
+
 ※ 세미나 ※ 
 https://deview.kr/  
 https://festa.io/events/90
