@@ -13,6 +13,18 @@ $ git commit -m "내용"
 $ git push -u origin master
 -----------------------------------------------------
 ```
+<p>업로드 설정후 reload시</p>
+
+```bash
+reload-----------------------------------------------
+$ git pull
+$ git add .
+$ git commit -m "내용"
+$ git push
+- user.name jnoony
+- user.pass ***
+-----------------------------------------------------
+```
 
 git오류 해결
 ---------
