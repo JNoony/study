@@ -71,6 +71,9 @@ http://dbfreebies.co/  -->디자인 포트폴리오 자료 모음집
 http://kr.365psd.com/ -->무료 디자인 템플릿 다운로드 사이트
 https://onepagelove.com/  -->원 페이지 웹디자인 템플릿 사이트
 http://osxtip.tistory.com/59  ---->프리젠테이션용
+http://www.buckettrust   -->국내 해외 사이트 
+https://www.behance.net/
+https://awwwards.com
 
 
 ※ 디자인 관련 ※
@@ -145,6 +148,24 @@ https://christinecha.github.io/choreographer-js/      -->애니메이션
 http://meandmax.github.io/lory/     -->슬라이드이미지
 
 https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths     -->SVG 설명
+
+
+※ CSS animation ※
+
+https://daneden.github.io/animate.css/  --> 기본 움직임
+https://minimamente.com/example/magic_animations/
+http://www.joelambert.co.uk/morf/  -->움직임 확인후 소스까지 생성
+http://leaverou.github.io/animatable/   -->hover 움직임 
+
+https://matthewlein.com/tools/ceaser  -->ani 제작
+http://cssanimate.com/  -->키프레임을 이용한 ani제작
+http://jeremyckahn.github.io/stylie/
+
+https://easings.net/ja#   -->easing fungtion 확인
+
+https://webdesign.tutsplus.com/categories/css-animation   -->코드펜 애니메이션 모음
+
+https://codecanyon.net/category/css/animations-and-effects?_ga=2.134909041.1421093832.1540864116-1620772700.1540864116  -->유료사이트 참고용.
 
 
 =================================================================================================================================================
