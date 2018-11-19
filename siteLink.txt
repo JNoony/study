@@ -159,16 +159,15 @@ http://develtraining.tistory.com/category/%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%E
 --> node + exoress + MySql 사용한 게시판 만들기
 
 ※ CSS/jQuery※
-http://tympanus.net/codrops/  -->다양한 웹디자인 튜토리얼, 레이아웃 모음, jQuery 플러그인을 제공하는 웹사이트
+http://tympanus.net/codrops/  -->다양한 웹디자인 튜토리얼, 레이아웃 모음, jQuery 플러그인을 제공하는 웹사이트/css,java등 소스다운
 http://www.awwwards.com/  -->우수 웹사이트 소개 및 수상작 모음 웹사이트
 http://mediaqueri.es/  -->미디어 쿼리를 이용한 사이트 갤러리
-http://tobiasahlin.com/spinkit/  -->스플래시 모음 사이트
+http://tobiasahlin.com/spinkit/  -->스플래시 모음 사이트 - 로딩바
 https://www.cssdesignawards.com/  --->CSS의 최신기술
 https://www.awwwards.com
 https://capptivate.co  --->모바일 애니메이션
 
 https://www.berriart.com/sidr/ ---->opencanvas 플러그인 다운로드
-http://tympanus.net/codrops/  --->css,java등 소스다운
 http://www.jquery.com/ ---> 제이쿼리 기본 설명 및 다운
 http://www.jqueryscript.net/ --->jQuery 플러그인 데모확인 및 다운
 
@@ -200,6 +199,40 @@ https://easings.net/ja#   -->easing fungtion 확인
 https://webdesign.tutsplus.com/categories/css-animation   -->코드펜 애니메이션 모음
 
 https://codecanyon.net/category/css/animations-and-effects?_ga=2.134909041.1421093832.1540864116-1620772700.1540864116  -->유료사이트 참고용.
+
+http://www.minimamente.com/example/magic_animations/
+http://elrumordelaluz.github.io/csshake/
+http://daneden.github.io/animate.css/
+http://bouncejs.com/
+
+http://ianlunn.github.io/Hover/
+
+http://tobiasahlin.com/typesource/    -->TEXT
+https://www.google.com/fonts
+
+http://flexboxgrid.com/   -->layout
+
+
+
+
+
+------------------------------------------
+    라이브러리 & 프레임워크
+------------------------------------------
+https://www.haruair.com/javascript-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%AA%A8%EC%9D%8C  -->라이브러리 모음
+※ autocomplete ※
+http://autocompletejs.com/
+http://autocomplete-js.com/
+http://atmb4u.github.io/AutoJS/
+http://hakib.github.io/MassAutocomplete/
+
+https://highlightjs.org/     -->highlight.js 신텍스 하일라이터. 코드 3줄이면 페이지 내 코드를 자동으로 인식해서 하일라이팅 해주는 라이브러리.
+http://riccardoscalco.github.io/textures/    -->textures.js SVG 패턴을 생성해주는 d3.js 확장 라이브러리. 데이터 시각화.
+http://krakenjs.com/    -->krakenjs. express를 위한, 보안 및 확장 가능한 레이어. 페이팔 오픈소스.
+http://interactjs.io     -->intract.js  드래그 앤 드롭, 리사이즈 등 여러 제스처를 지원하는 js
+https://github.com/dbushell/Pikaday      -->
+
+
 
 
 ==========================================================================================================
