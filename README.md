@@ -64,7 +64,7 @@ $ git stash    //unstaged 상태인 변경사항을 일시적으로 백업하고
 $ git pull     
 $ git stash pop  //워킹 디렉토리에 stash를 다시 적용
 
-$ git merge --abort   //pull 
+$ git merge --abort   // 
 -----------------------------------------------------
 ```
 
