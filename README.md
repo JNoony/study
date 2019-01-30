@@ -57,7 +57,12 @@ git pull시 오류
 error: Your local changes to the following files would be overwritten by merge: <br>
 <p>git pull 했을때 merge를 하라며 commit이랑 충돌 오류 발생할때<br>
 파일을 삭제하고 다시 만드는게 아니라 임시로 저장하고 리셋해서 다시 진행</p>
-
+```bash
+Updating dab9a8b..b49cd63
+error: Your local changes to the following files would be overwritten by merge:
+        bundle.gradle // 충돌난 파일(File)
+Please, commit your changes or stash them before you can merge.
+```
 ```bash
 ---------------------------------------------
 $ git stash    //unstaged 상태인 변경사항을 일시적으로 백업하고 워킹디렉토리를 깨끗한 상태로 유지
@@ -65,6 +70,18 @@ $ git pull
 $ git stash pop  //워킹 디렉토리에 stash를 다시 적용
 
 $ git merge --abort   // 
+-----------------------------------------------------
+```
+> ※Git Stash를 활용하여 충돌 해결하기
+>>git stash란 unstaged 파일들을 임시 저장하고 HEAD의 상태로 백업을 하는 것입니다.
+>>임시저장하는 것이기 때문에 다시 불러와서 적용을 할 수 있다.
+```bash
+---------------------------------------------
+$ git status        //unstaged에 파일이 올라가 있는 모습확인  ex) modified:   deploy-source/award/index.html
+$ git stash        //ex)Saved working directory and index state WIP on develop: ebab191 QA 세션 연사 추가/수정
+$ git stash list   //현재 등록된 stash 확인하기  ex)stash@{1}: WIP on develop: 12145b5
+$ git stash pop    // 저장된 stash 다시 적용하기
+$ git pull
 -----------------------------------------------------
 ```
 
