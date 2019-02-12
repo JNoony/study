@@ -68,11 +68,10 @@ Please, commit your changes or stash them before you can merge.
 
 ```bash
 ---------------------------------------------
+※ 기본적인 방법 ※
 $ git stash    //unstaged 상태인 변경사항을 일시적으로 백업하고 워킹디렉토리를 깨끗한 상태로 유지
 $ git pull     
 $ git stash pop  //워킹 디렉토리에 stash를 다시 적용
-
-$ git merge --abort   // 
 -----------------------------------------------------
 ```
 
