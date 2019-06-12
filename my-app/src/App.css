@@ -1,0 +1,22 @@
+.app{
+  max-width:1000px;width:100%;margin:auto;
+  display: flex;
+  display: -webkit-flex;display: -ms-flex;display: -o-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;-ms-flex-wrap: wrap; -o-flex-wrap:wrap;
+}
+.app--loading{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color:#333; */
+  position: fixed;
+  top:0;left:0;right:0;bottom:0;
+  width:150px;height:40px;line-height: 40px;
+  margin:auto;text-align: center; 
+  background: gray;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 1px 3px 5px rgba(0,0,0,.2);
+}

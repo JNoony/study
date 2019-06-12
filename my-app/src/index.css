@@ -1,0 +1,32 @@
+/* @charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'Nanum Barun Gothic','나눔 바른 고딕','Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Apple SD Gothic Neo',sans-serif;color:#fff}
+html{overflow-x:hidden}
+body{background:#171d29;font-size:17px;word-break:keep-all;word-wrap:break-word}
+a, a:hover, a:focus, a:active{text-decoration:none;color:#fff}
+a,button,input,textarea{-o-transition:border-color .3s,background .3s,color .3s,opacity .3s;-moz-transition:border-color .3s,background .3s,color .3s,opacity .3s;-webkit-transition:border-color .3s,background .3s,color .3s,opacity .3s,-webkit-transform .3s;transition:border-color .3s,background .3s,color .3s,opacity .3s,-webkit-transform .3s}
+li{list-style:none}
+address,em{font-style:normal}
+label{margin-bottom:0;cursor:pointer}
+table{width:100%}
+video{max-width:100%}
+textarea{resize:none}
+img{vertical-align:top}
+ */
+
+
+body {
+  margin: 0;padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

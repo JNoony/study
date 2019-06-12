@@ -1,0 +1,80 @@
+.Movie{
+    flex: 1 1 45%;
+    margin:5% 2%;
+    background: #fff;
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1) , -1px -1px 15px rgba(0,0,0,.1);
+    position: relative;
+    padding:20px;box-sizing: border-box;
+    display: flex;
+}
+.Movie-col-left{
+    width:30%;
+    height:10%;
+    margin-top:-40px;
+}
+
+.Movie-col-left .Movie-img{
+    width:100%;
+    box-shadow: 3px 5px 5px rgba(0,0,0,.4) , -2px -3px 10px rgba(0,0,0,.2);
+}
+
+.Movie-col-right{
+    width: 60%;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Movie-col-right > h2,
+.Movie-gen,
+.Movie-synop{
+    flex:1 1 auto;
+    margin:0;
+    color:#999;
+    font-size: 14px;
+}
+
+.Movie-col-right > h2{
+    font-size:19px;
+    color:#333;
+    letter-spacing: -1px;
+    width:100%;
+    word-wrap: break-word;
+    /* margin-bottom:7px; */
+}
+
+.Movie-gen-span{
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    border-radius:50px;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    padding:0 6px;
+}
+
+.Movie-synop{
+    /* margin-top:10px; */
+    line-height:1.4; 
+}
+
+
+@media screen and (max-width:667px){
+    .Movie{
+        flex:1 1 100%;
+    }
+    .Movie-col-left{
+        height: auto;
+        margin-top:0;margin:auto;
+    }
+}
+
+@media screen and (max-width:667px) and (orientation:portrait){
+    .Movie{
+        flex:1 1 100%;
+        /* flex-direction: column; */
+    }
+    .Movie-col-left{
+        height: auto;
+        margin-top:0;margin:auto;
+    }
+}
