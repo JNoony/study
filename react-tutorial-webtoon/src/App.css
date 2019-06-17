@@ -1,0 +1,64 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+
+.header{
+    text-align: center;
+    font-size: 1.7rem;
+    color:#fff;
+    background: #3d414b;
+    padding:2% 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.gnb{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+.gnb li{
+    flex:1;
+    text-align: center;
+    background: #6c7794;
+}
+.gnb-day{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    width:100%;
+    padding:5% 0;
+}
+.gnb-day.on{
+    color:#fff;
+    font-weight: bold;
+    background: #5db6ff;
+}
+
+.webtoon-wrap,
+.webtoon-link{
+    display: flex;
+    border-bottom:1px solid #eee;
+    padding-bottom:5px;
+    margin-top:5px;
+    text-decoration: none;
+    color:#666;
+}
+.webtoon-img{
+    flex:1;
+}
+.webtoon-info{
+    flex:2;
+    padding-left:1%;
+    box-sizing: border-box;
+}
+.webtoon-tit{
+    display:block;
+    margin: 15% 0 3%;
+}
+
+.footer{
+    width:100%;
+    text-align: center;
+    padding:3% 0;
+}
