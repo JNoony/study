@@ -7,10 +7,5 @@ function Footer(){
         </div>
     )
 }
-// const Footer = () => {
-//     <div className="footer">
-//         ⓒ web test MJ
-//     </div>
-// }
 
 export default Footer;

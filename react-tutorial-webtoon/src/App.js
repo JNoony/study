@@ -11,11 +11,11 @@ class App extends Component{
   render(){
     return(
       <Router>
-        <div>
+        {/* <div> */}
           <Route exact path="/" component={Main} />
           <Route exact path="/webtoon/:webtoonId" component={WebtoonHome} />
           <Route exact path="/viewer/:episodeId" component={Viewer} />
-        </div>
+        {/* </div> */}
       </Router>
     )
   }
