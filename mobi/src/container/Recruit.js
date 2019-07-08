@@ -1,6 +1,10 @@
 import React,{ Component} from 'react';
 
 import Form from './Form';
+// npm install -save react-bootstrap ,
+// npm install -save bootstrap@3
+
+
 // import SimpleReactValidator from 'simple-react-validator';
 
 // import '../js/mobi.validation.js';
