@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+*{
+  margin:0;padding:0;
+}
+
+input,textarea{ 
+ /* border-color:transparent; */
+ border:1px solid#eee;
+ box-shadow: none;
+ border-radius:3px;
+}
+
+input:focus,textarea:focus {
+  outline: none;
+  border:1px solid rgba(100,139,147,.3);
+  box-shadow: 0 0 3px rgba(100,139,147,.3);
+}
