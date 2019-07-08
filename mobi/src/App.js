@@ -5,11 +5,13 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 import Header from './component/Header';
-import Footer from './component/Footer'
+import Footer from './component/Footer';
+
 import Main from './container/Main';
 import Service from './container/Service';
 import Recruit from './container/Recruit';
 import Job from './container/Job';
+import Login from './container/Login';
 
 class App extends Component{
 
@@ -22,6 +24,7 @@ class App extends Component{
           <Route exact path="/service" component={Service} />
           <Route exact path="/recruit" component={Recruit} />
           <Route exact path="/job" component={Job} />
+          <Route exact path="/login" component={Login} />
           {/* <Route exact path="/viewer/:episodeId" component={Viewer} /> */}
           <Footer />
         </div>
