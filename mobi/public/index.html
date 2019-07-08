@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+
+    <!-- classList Cross-browser //element.classList -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.2.20171210/classList.min.js"></script>
+    
     <title>mobi</title>
   </head>
   <body>
     <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
     <div id="root"></div>
+    <!-- <script type="text/jsx" src="app.js"></script> -->
+    <!-- <script src="https://unpkg.com/react-tabs/dist/react-tabs.production.min.js" ></script>     -->
+
+
     <!-- <script src="../src/js/mobi.validation.js"></script>
+    
     <script type="text/javascript">
       $(document).ready(function() {
         init_inputEraser();
@@ -40,34 +49,34 @@
         }, {
           email: /[\.\-\_\@]/
         });
-        $('#id_email2').inputEraser({
-          maxlength: 50,
-          hangul: false,
-          ENGLISH: true,
-          english: true,
-          digits: true,
-          space: false,
-          special: false,
-          email_id: true
-        }, {
-          email_id: /[\.\-\_]/
+        // $('#id_email2').inputEraser({
+        //   maxlength: 50,
+        //   hangul: false,
+        //   ENGLISH: true,
+        //   english: true,
+        //   digits: true,
+        //   space: false,
+        //   special: false,
+        //   email_id: true
+        // }, {
+        //   email_id: /[\.\-\_]/
+        // });
+        $('#id_companyName').inputEraser({
         });
-        $('#id_email2Select').inputEraser({
+        $('#id_position').inputEraser({
         });
-        $('#id_email2Full').inputEraser({
+        $('#id_select').inputEraser({
         });
-        $('#id_email2Button').inputEraser({
-        });
+        // $('#id_phoneNum').inputEraser({
+        //   maxlength: 11,
+        //   hangul: false,
+        //   ENGLISH: false,
+        //   english: false,
+        //   digits: true,
+        //   space: false,
+        //   special: false
+        // });
         $('#id_phoneNum').inputEraser({
-          maxlength: 11,
-          hangul: false,
-          ENGLISH: false,
-          english: false,
-          digits: true,
-          space: false,
-          special: false
-        });
-        $('#id_phoneNum2').inputEraser({
             maxlength: 11,
             hangul: false,
             ENGLISH: false,
@@ -79,28 +88,28 @@
         }, {
             phoneNum_kr: /[\-]/
         });
-        $('#id_birthday').inputEraser({
-            maxlength: 8,
-            hangul: false,
-            ENGLISH: false,
-            english: false,
-            digits: true,
-            space: false,
-            special: true
-        });
-        $('#id_birthday2').inputEraser({
-            maxlength: 8,
-            hangul: false,
-            ENGLISH: false,
-            english: false,
-            digits: true,
-            space: false,
-            special: false,
-            date_kr: true
-        }, {
-            date_kr: /[\/]/
-        });
-        $('#id_subject').inputEraser({
+        // $('#id_birthday').inputEraser({
+        //     maxlength: 8,
+        //     hangul: false,
+        //     ENGLISH: false,
+        //     english: false,
+        //     digits: true,
+        //     space: false,
+        //     special: true
+        // });
+        // $('#id_birthday2').inputEraser({
+        //     maxlength: 8,
+        //     hangul: false,
+        //     ENGLISH: false,
+        //     english: false,
+        //     digits: true,
+        //     space: false,
+        //     special: false,
+        //     date_kr: true
+        // }, {
+        //     date_kr: /[\/]/
+        // });
+        $('#id_title').inputEraser({
           maxlength: 300,
           hangul: true,
           ENGLISH: true,
@@ -120,5 +129,6 @@
         });  
       }
     </script> -->
+
   </body>
 </html>

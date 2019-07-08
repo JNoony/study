@@ -1,123 +1,112 @@
 import React,{ Component} from 'react';
+
+import Form from './Form';
+// npm install -save react-bootstrap ,
+// npm install -save bootstrap@3
+
+
 // import SimpleReactValidator from 'simple-react-validator';
 
+// import '../js/mobi.validation.js';
+
 class Recruit extends Component{
-    // form 유효성 체크 [ simple-react-validator ]
-    constructor(props){
-        super(props);
-        this.state = {
-           // id:'',
-           companyName:'',
-           email:'',
-           name:'',
-           phone:'',
-           position:'',
-           option:'',
-           title:'',
-           message:''
-        }
-        //this.handleChange = this.handleChange.bind(this);
-    }
+    
 
-    handleChange = (e) => {
-        this.setState({
-          [e.target.name]: e.target.value
-        });
-    }
+    // handleChange = (e) => {
+    //     e.preventDefault();
 
-    handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(this.state)
-        // 상태 초기화
-        this.setState({
-            companyName:'',
-            email:'',
-            name:''
-        })
-    }
+    //     this.setState({
+    //       [e.target.name]: e.target.name
+    //     });
+
+    //     // let { inputData } = this.state;
+    //     // if(e.target.id == 'id_userName' ){
+    //     //     e.target.inputEraser({
+    //     //         maxlength: 4,
+    //     //         hangul: true,
+    //     //         ENGLISH: false,
+    //     //         english: false,
+    //     //         digits: false,
+    //     //         space: false,
+    //     //         special: false
+    //     //     });
+    //     // }
+    // }
+
+
+    // handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     // alert( `recruitList -  ${this.state.recruitList}` );
+    //     // this.props.onCreate(this.state);
+        
+    //     // if( formValid(this.state.formErrors) ){
+    //     //     console.log(`
+    //     //     --SUBMITTING--
+    //     //     companyName:${this.state.companyName},
+    //     //     email:${this.state.email},
+    //     //     name:${this.state.name},
+    //     //     phone:${this.state.phone},
+    //     //     position:${this.state.position},
+    //     //     value:${this.state.value},
+    //     //     title:${this.state.title},
+    //     //     message:${this.state.message},
+    //     //     `)
+    //     // }else{
+    //     //     console.error('err');
+    //     // }
+    //     //// 상태 초기화
+    //     // this.setState({
+    //     //     companyName:'',
+    //     //     email:'',
+    //     //     name:''
+    //     // })
+    // }
+
+    // // init_inputEraser =(e) => {
+    // //     let { inputData } = this.state;
+    // //     let id = e.target.id;
+    // //     if(id == 'id_userName' ){
+    // //         id.inputEraser({
+    // //             maxlength: 4,
+    // //             hangul: true,
+    // //             ENGLISH: false,
+    // //             english: false,
+    // //             digits: false,
+    // //             space: false,
+    // //             special: false
+    // //         });
+    // //     }
+          
+    // // }
+
+    // handleCreate = (data) => {
+    //     console.log(data);
+    //     // init_inputEraser()
+    // }
+
+    // handleSubmit = ({e , data}) => {
+    //     e.preventDefault();
+    //     console.log("Submitting");
+    //     console.log(data);
+    // }
 
     render(){
-        console.log(this.state)
+        // const { handleSubmit } = this;
+
         return(
             <div className="page page3">
                 <h2 className="con-title">Recruit</h2>
                 <div className="con-form">
-                    <form onSubmit={this.handleSubmit}>
-                        <p>Company Infomation</p>
-                        <div className="con-form-box">
-                            <span>
-                                <label>회사</label>
-                                <input type="text" placeholder="ex) 모비데이즈" 
-                                       value={this.state.companyName}
-                                       onChange={this.handleChange}
-                                       name="companyName" 
-                                       id="id_companyName"/>
-                                {/* {this.validator.message('title', this.state.companyName, 'required|alpha')} */}
-                            </span>
-                            <span>
-                                <label>이메일</label>
-                                <input type="text" placeholder="ex) email@mail.com" 
-                                       value={this.state.email}
-                                       onChange={this.handleChange}
-                                       name="email"
-                                       id="id_email" />
-                            </span>
-                            <span>
-                                <label>담당자명</label>
-                                <input type="text" placeholder="ex) 홍길동" 
-                                       value={this.state.name}
-                                       onChange={this.handleChange}
-                                       name="name" 
-                                       id="id_userName" />
-                            </span>
-                            <span>
-                                <label>전화번호</label>
-                                <input type="text" placeholder="ex) 01012341234" 
-                                       value={this.state.phone}
-                                       onChange={this.handleChange}
-                                       name="phone" 
-                                       id="id_phoneNum"/>
-                            </span>
-                        </div>
-                        <p>Job Description</p>
-                        <div className="con-form-box">
-                            <span>
-                                <label>직무</label>
-                                <input type="text" placeholder="ex) 팀장"
-                                       value={this.state.position}
-                                       onChange={this.handleChange}
-                                       name="position" 
-                                       id="id_position"/>
-                            </span>
-                            <span>
-                                <label>경력</label>
-                                <select value={this.state.option} >
-                                    <option value="1">신입</option>
-                                    <option value="2">경력</option>
-                                    <option value="3">신입/경력</option>
-                                </select>
-                            </span>
-                            <span>
-                                <label>제목</label>
-                                <input type="text" 
-                                       value={this.state.title} 
-                                       onChange={this.handleChange} 
-                                       name="title"
-                                       id="id_title" />
-                                <label>상세내용</label>
-                                <textarea  cols="28" rows="10"
-                                        value={this.state.message} 
-                                        onChange={this.handleChange} 
-                                        name="message" 
-                                        id="id_message" ></textarea>
-                            </span>
-                        </div>
-                        <button type="submit" className="btn btn-b">보내기</button>
-                    </form>
+                    <Form />
                 </div>
             </div>
         )
     }
+
 }
+
+
+
+
 
 export default Recruit;

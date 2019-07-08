@@ -1,5 +1,6 @@
 import React,{ Component} from 'react';
 import axios from 'axios';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 import JobList from '../component/JobList'
 import './Job.css';
@@ -8,7 +9,8 @@ class Job extends Component{
     constructor(props){
         super(props);
         this.state = {
-            jobList:[]
+            jobList:[],
+            item: Array.from({ length: 10 })
         }
     }
     
@@ -37,6 +39,16 @@ class Job extends Component{
             })
     }
 
+    fetchMoreData = () => {
+        // a fake async api call like which sends
+        // 20 more records in 1.5 secs
+        setTimeout(() => {
+          this.setState({
+            item: this.state.jobList.concat(Array.from({ length: 10 }))
+          });
+        }, 1500);
+    };
+
     render(){
         return(
             <div className="page page4">
@@ -51,7 +63,14 @@ class Job extends Component{
                         <p>기간</p>
                     </div>
                     { this.state.jobList ? (
-                        <JobList list={this.state.jobList}/>
+                        <InfiniteScroll
+                            dataLength={this.state.jobList.length}
+                            next={this.fetchMoreData}
+                            hasMore={true}
+                            // loader={<span>LOADING...</span>} 
+                        >
+                            <JobList list={this.state.jobList} />
+                        </InfiniteScroll>
                     ) : (
                         <span>LOADING...</span>
                     ) }
