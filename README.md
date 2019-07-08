@@ -113,3 +113,47 @@ $ git clean -fdx
 $ git reset --hard origin/master
 -----------------------------------------------------
 ```
+
+
+
+React
+------------
+>React 작업환경 설정하기
+
+```bash
+-----------------------------------------------------
+mkdir react-tutorial && cd react-tutorial 
+
+npm init
+
+npm install -g create-react-app
+npm install -save create-react-app
+
+npx create-react-app 폴더이름
+
+npm install --save react react-dom
+npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
+-----------------------------------------------------
+```
+>[ npm install --save create-react-app ]  -->React 패키지 설치
+>[ mkdir react-tutorial && cd react-tutorial ] -->react-tutorial라는 루트폴더 설치후, npm init으로 Node.js 설치.
+>[ babel-core babel-loader... ]  -->babel 에서 사용 될 플러그인을 설치 
+
+<p>※추가적으로 설치할것들</p>
+>npm install -save axuis   --> ajax같은 기능
+>npm install -save react-router-dom    -->{ Link,Router,Route }기능사용
+
+```bash
+※ 설치후 React 구조
+-----------------------------------------------------
+react-tutorial
+├── package.json         
+├── public            # 서버 public path
+│   └── index.html    # 메인 페이지
+├── src               # React.js 프로젝트 루트
+│   ├── components    # 컴포넌트 폴더
+│   │   └── App.js    # App 컴포넌트
+│   └── index.js      # Webpack Entry point
+└── webpack.config.js # Webpack 설정파일
+-----------------------------------------------------
+```
