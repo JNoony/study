@@ -60,10 +60,9 @@ $ git push origin master --force  또는, $ git push origin master -f
 >2. The file will have its original line endings in your working directory.
 <p>맥 또는 리눅스를 쓰는 개발자와 윈도우 쓰는 개발자가 Git으로 협업할 때 발생하는 Whitespace 에러 <br>
 유닉스 시스템에서는 한 줄의 끝이 LF(Line Feed)로 이루어지는 반면, 윈도우에서는 줄 하나가 CR(Carriage Return)와 LF(Line Feed), 즉 CRLF로 이루어지기 때문이다. 따라서 어느 한 쪽을 선택할지 Git에게 혼란이 온 것<br>
-해답은 core.autocrlf 를 켜는 것!</p>
-<br>
+<strong>해답은 core.autocrlf 를 켜는 것!</strong></p>
+
 ```bash
- ----------------------------------------
 윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력
 $ git config --global core.autocrlf true
 
@@ -72,8 +71,8 @@ $ git config --global core.autocrlf true input
 
 그냥 에러 메시지 끄고 알아서 작업하고 싶은 경우
 $ git config --global core.safecrlf false
------------------------------------------------------
 ```
+
 
 
 git pull시 오류
@@ -83,12 +82,14 @@ error: Your local changes to the following files would be overwritten by merge: 
 <p>git pull 했을때 merge를 하라며 commit이랑 충돌 오류 발생할때<br>
 파일을 삭제하고 다시 만드는게 아니라 임시로 저장하고 리셋해서 다시 진행</p>
 
+
 ```bash
 Updating dab9a8b..b49cd63
 error: Your local changes to the following files would be overwritten by merge:
         bundle.gradle // 충돌난 파일(File)
 Please, commit your changes or stash them before you can merge.
 ```
+
 
 
 ```bash
@@ -99,6 +100,7 @@ $ git pull
 $ git stash pop  //워킹 디렉토리에 stash를 다시 적용
 -----------------------------------------------------
 ```
+
 
 ※Git Stash를 활용하여 충돌 해결하기
 >git stash란 unstaged 파일들을 임시 저장하고 HEAD의 상태로 백업을 하는 것입니다.
@@ -113,6 +115,7 @@ $ git stash pop    // 저장된 stash 다시 적용하기
 $ git pull
 -----------------------------------------------------
 ```
+
 
 ※ OR
 >1. 로컬 변경 사항을 숨기 십시오.
