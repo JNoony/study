@@ -63,7 +63,6 @@ $ git push origin master --force  또는, $ git push origin master -f
 해답은 core.autocrlf 를 켜는 것!</p>
 <br>
 ```bash
----------------------------------------------
 윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력
 $ git config --global core.autocrlf true
 
@@ -72,7 +71,6 @@ $ git config --global core.autocrlf true input
 
 그냥 에러 메시지 끄고 알아서 작업하고 싶은 경우
 $ git config --global core.safecrlf false
------------------------------------------------------
 ```
 
 
