@@ -56,6 +56,27 @@ $ git push origin master --force  또는, $ git push origin master -f
 -----------------------------------------------------
 ```
 
+
+>2. The file will have its original line endings in your working directory.
+<p>맥 또는 리눅스를 쓰는 개발자와 윈도우 쓰는 개발자가 Git으로 협업할 때 발생하는 Whitespace 에러 <br>
+유닉스 시스템에서는 한 줄의 끝이 LF(Line Feed)로 이루어지는 반면, 윈도우에서는 줄 하나가 CR(Carriage Return)와 LF(Line Feed), 즉 CRLF로 이루어지기 때문이다. 따라서 어느 한 쪽을 선택할지 Git에게 혼란이 온 것<br>
+해답은 core.autocrlf 를 켜는 것!</p>
+<br>
+```bash
+---------------------------------------------
+윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력
+$ git config --global core.autocrlf true
+
+리눅스나 맥을 사용하고 있는 경우
+$ git config --global core.autocrlf true input
+
+그냥 에러 메시지 끄고 알아서 작업하고 싶은 경우
+$ git config --global core.safecrlf false
+-----------------------------------------------------
+```
+
+
+
 ```bash
 업데이트 확인 ----------------------------------------
 $ git pull
