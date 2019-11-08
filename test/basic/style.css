@@ -1,0 +1,120 @@
+#wrap{margin:0 !important;}
+#container{ width:100%; }
+#footer .xans-layout-footer{width:78%;margin:auto;min-width: 1150px;}
+
+#header .logo{ margin: 45px 0 0 5vw; }
+.right_area .search{ margin: 0 7vw 0px 0; }
+
+
+/* filter base */
+.filter-wrap{text-align:left;}
+/*.max-wid{width:83%;margin:auto;min-width: 1150px;}*/
+.max-wid{width:77vw;margin:auto;min-width: 1150px;}
+.flex-box{ 
+    display: flex;display: -webkit-flex;display: -ms-flex;
+    flex-wrap: wrap;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;
+}
+.txt-b{font-weight: bold; !important; font-size:18px !important;}
+
+/* filter header */
+.depth{ font-size:13px;color:#050505;margin-bottom:5px;text-transform: uppercase; }
+.filter-head-key{position: relative;font-size:15px;line-height: 50px;height:50px;padding: 0px 11%;}
+.filter-head-key:after{
+    content:'';
+    position: absolute;top:0;left:0;right:0;width:100vw;height: 1px;
+    background: #eee;z-index:-1;
+}
+.filter-head-key>div{ display:inline-block; }
+.filter-head-key>div:last-child{ width:90%; }
+
+.filter-head-key ul li{text-align:center;flex: 1 1;}
+
+.filter-key-title{margin-left:0 !important;text-align:left;display:inline-block;}
+.filter-key-title span{
+    display: inline-block;width:20px;height:20px;
+    border:1px solid #aaa;vertical-align: middle;margin-left:10px;position: relative;
+}
+.filter-key-title span:after{
+    content:'+';
+    position: absolute;top:-18px;left:2.5px;right:0;bottom:0;margin: auto;
+    font-size:22px;
+}
+
+input+label{cursor: pointer;}
+input[type="checkbox"].hidden,input[type="radio"].hidden{visibility: hidden;}
+input[type="radio"]:active+label,
+input[type="radio"]:focus+label,
+input[type="radio"]:checked+label,
+input[type="checkbox"]:active+label,
+input[type="checkbox"]:focus+label,
+input[type="checkbox"]:checked+label{color:#111;font-weight: bold;}
+
+.filter-head-key li{ cursor: pointer;}
+.filter-head-key li.on,
+.filter-head-key a.on,
+.filter-head-key li:focus,
+.filter-head-key li:active{color:#111;font-weight: bold;}
+
+/* filter visual */
+.filter-visual{
+    height:190px;position: relative;
+    background:#eee url(/web/upload/bbpguide/filter_bg3.png) no-repeat center;
+    background-size:cover;
+}
+.filter-title{ 
+    position: absolute;top:0;bottom:0;left:11%;
+    height:50px;margin:auto;font-size:35px;font-weight: bold;
+}
+
+/* filter body */
+.filter-body {padding:5% 0;}
+.filter-con-box{
+    width:23.5%;margin-bottom:2%;margin-right:2%;
+    padding:1.5% 1%;box-sizing:border-box;border:1px solid #ddd;
+}
+.filter-con-box:nth-child(4n){margin-right:0;}
+.filter-con-box-title+li{ 
+    height:140px;overflow-y: scroll;word-break: keep-all; 
+    /**** 스크롤바 ********/
+    scrollbar-arrow-color:#ddd;
+    scrollbar-base-color:#fff;
+    scrollbar-3dlight-color:#fff;
+    scrollbar-darkshadow-color:#fff;  
+    scrollbar-face-color:#ddd;
+    scrollbar-highlight-color:#fff;
+    scrollbar-shadow-color:#fff;
+    scrollbar-track-color:#fff;
+}
+/* 크롬,사파리 */
+.filter-con-box-title+li::-webkit-scrollbar {
+    width:7px;/* 세로축 스크롤바 너비 */
+    height:7px;/* 가로축 스크롤바 너비 */
+    background : #fff;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+.filter-con-box-title+li::-webkit-scrollbar-track {
+    background : #fff;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+.filter-con-box-title+li::-webkit-scrollbar-thumb{ 
+    /* height:1px;width:5px; */
+    background:#ddd;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+.filter-con-box li div{margin-bottom:5%;}
+.filter-con-box li div p{ font-size:14px;font-weight:400;letter-spacing: -.08em; color: #666; }/* text box -> 본문 텍스트 스타일 */
+.filter-con-box li div p.txt-b{font-weight: bold;font-size:14px !important; color: #222;}/* text box -> 본문 텍스트 스타일 중 bold처리 */
+.filter-con-box li{  }
+.filter-con-box-title p{font-size:16px;text-transform: capitalize;letter-spacing: -0.05em;}
+.txt-last{
+    margin:5% 0;padding-bottom:6%;
+    border-bottom:1px solid #ddd;
+}
+.filter-con-box-title .txt-ko{font-size:20px;}
+
+@media only screen and ( max-width:1500px ){
+	.max-wid{ min-width:1024px; }
+}

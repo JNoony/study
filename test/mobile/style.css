@@ -1,0 +1,136 @@
+/* filter base */
+.filter-wrap{}
+.filter-head-title{
+    padding: 0 10%;
+    line-height: 53px;font-size: 15px;color: #222;
+    text-align: center;text-transform: uppercase;
+}
+.small-new{ position: relative;width:100%;height:10px;}
+.small-new:before{ 
+    content:'new';
+    position: absolute;top:-16px;left:0;
+    width:100%;height:30px;
+    text-transform: uppercase;text-align: center;
+    font-size: 13px;color: #999;
+}
+.flex-box{ 
+    display: flex;display: -webkit-flex;display: -ms-flex;
+    flex-wrap: wrap;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;
+}
+.txt-b{font-weight: bold !important; font-size:14px !important;}
+
+/* filter header */
+.filter-head-key{justify-content: center;-webkit-justify-content: center;}
+a.filter-btn{ 
+    color: #888;border: 1px solid #e1e1e1;
+    font-size: 11px;line-height: 20px;
+    margin-left: 3px; padding: 3px 7px 2px;
+    text-decoration: none;
+}
+a.filter-btn.on,
+a.filter-btn:active,
+a.filter-btn:focus{ color: #111 !important;border: 1px solid #222;  }
+
+.filter-key-sub ul{justify-content: center;-webkit-justify-content: center;}
+.filter-key-sub .filter-btn{ font-size:10px;padding:2%;color:#666;margin-top:1%; }
+.filter-key-sub .filter-btn.on,
+.filter-key-sub .filter-btn:active,
+.filter-key-sub .filter-btn:focus{color:#111;font-weight: bold;}
+
+
+/* filter visual */
+.filter-visual{
+    padding:5% 0 3%;
+    /* background:#eee url(/web/upload/filter_bg.png) no-repeat center;background-size:cover; */
+}
+.filter-title{
+    text-align: center;line-height: 53px;font-size: 15px;color: #222;font-weight: bold;
+    /* position: absolute;top:0;bottom:0;left:8.5%;
+    height:50px;margin:auto;font-size:35px;font-weight: bold; */
+}
+
+
+/* filter body */
+.filter-con-box{width:100%;}
+.filter-con-box-title{
+    display: block;text-decoration: none;cursor: pointer;
+    padding:2% 0;border-top:1px solid #ddd;position: relative;
+}
+.filter-con-box-title::before{
+    content: '';
+    position: absolute;top:0;bottom:0;right:0;margin: auto;
+    width:17px;height:20px;
+    background: url(/web/upload/icon-right.png) no-repeat;
+    background-size:100%;
+    opacity: .7;
+}
+.txt-en{ 
+    font-size:13px;text-transform: capitalize;letter-spacing: -0.05em;color:#555;
+    width:85%;word-break: keep-all;
+}
+
+
+
+/*** popup *************/
+.popup{ 
+    position: fixed;top:0;left:0;bottom:0;right:0;
+    z-index:1000;
+}
+.popup-bg{
+   position: absolute;top:0;left:0;z-index:-1;
+   width:100vw;height:100vh;background: rgba(0,0,0,.7);
+}
+.popup-con{
+    position: absolute;top:0;left:0;right:0;bottom:0;margin: auto;
+    width:85vw;height:70vh;
+    background:#fff;
+    box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    padding:3% 4%;box-sizing: border-box;
+}
+.popup .filter-con-box-title{ 
+    cursor: inherit;border:none;
+    margin-bottom:5%;padding-bottom:4%;border-bottom:1px solid #ddd;
+}
+.popup .filter-con-box-title::before{display:none;}
+.popup .filter-con-box-title .txt-b{ font-size:16px !important; }
+.popup .filter-con-box-title .txt-en{width:100%;}
+.popup .txt-last{margin-top:4%;}
+.popup .filter-con-box-info{
+    overflow-y: scroll;word-break: keep-all;height:50vh;
+    /**** 스크롤바 ********/
+    scrollbar-arrow-color:#ddd;
+    scrollbar-base-color:#fff;
+    scrollbar-3dlight-color:#fff;
+    scrollbar-darkshadow-color:#fff;  
+    scrollbar-face-color:#ddd;
+    scrollbar-highlight-color:#fff;
+    scrollbar-shadow-color:#fff;
+    scrollbar-track-color:#fff;
+}
+/* 크롬,사파리 */
+.popup .filter-con-box-info::-webkit-scrollbar {
+    width:7px;/* 세로축 스크롤바 너비 */
+    height:7px;/* 가로축 스크롤바 너비 */
+    background : #fff;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+.popup .filter-con-box-info::-webkit-scrollbar-track {
+    background : #fff;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+}
+.popup .filter-con-box-info::-webkit-scrollbar-thumb{ 
+    /* height:1px;width:5px; */
+    background:#ddd;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+}
+.popup .filter-con-box-info-text{ 
+    margin-bottom:5%;font-size:13px;line-height:1.5;
+}
+.popup .filter-con-box-info-text p:first-child{margin-bottom:3%;}
+
+.scrollOff{overflow: hidden;overflow-y: hidden;}
+
+

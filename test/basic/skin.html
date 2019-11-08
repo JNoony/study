@@ -1,0 +1,45 @@
+<!--@layout(/layout/basic/layout.html)-->
+<!--@css(/css/module/ingredient/style.css)-->
+<!--@js(/js/dataTable.js)-->
+<!--@js(/js/module/ingredient/ingredient.js)-->
+
+
+<div class="filter-wrap">
+
+  <!-- filter header -->
+  <div class="depth max-wid">성분 가이드 > <span></span></div>
+  
+  <div class="filter-head">
+     
+      <div class="filter-head-key filter-key-major">
+          <div class="filter-key-title">대분류 <span></span></div>
+          <div>
+            <ul class="flex-box ">
+                  <li><a href="/ingredient/haircare/hair.html" class="filter-btn " id="hair">헤어케어</a></li>
+                  <li><a href="/ingredient/skincare/skin.html" class="filter-btn on"  id="skin">스킨케어</a></li>
+                  <li><a href="/ingredient/bodycare/body.html" class="filter-btn"  id="body">바디케어</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="filter-head-key filter-key-sub">
+          <div class="filter-key-title">소분류 <span></span></div>
+          <div>
+            <ul class="flex-box ">
+                  <li class="filter-btn on" id="sub1" onclick="dataTable(subData.skin1)" >시카토너패드</li>
+                  <li class="filter-btn" id="sub2" onclick="dataTable(subData.skin2)" >쑥카폼클렌저</li>
+                  <li class="filter-btn" id="sub3" onclick="dataTable(subData.skin3)" >쑥카앰플</li>
+              </ul>
+          </div>
+      </div>
+      
+  </div> 
+  
+  <!-- filter visual -->
+  <div class="filter-visual filter-visual3">
+      <p class="filter-title max-wid"></p>
+  </div>
+  
+  <!-- filter contents -->
+  <div class="filter-body max-wid flex-box"></div>
+  
+</div>
